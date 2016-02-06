@@ -1,0 +1,14 @@
+- id: organization
+- services:
+  - icon: star
+    title: 組織の共有ビジョンづくり支援
+    desc: 指示・命令で人は動きません。組織・チームとして成果をあげるためには人が突き動かされるビジョンが必要です。共有ビジョンをパタン・ランゲージを用いて作り、組織として実現するためのご支援を実施します。
+  - icon: group
+    title: ハイパフォーマンスチームづくりトレーニング＆コーチング
+    desc: ハイパフォーマンスチームを作るためには、メンバーがいかに目標に向かって協働するのかが肝となります。世界的に導入されているスクラム、トヨタ生産方式にヒントを得たチームファシリテーションなどの手法を用いて、あなたのチームをハイパフォーマンスチームに生まれ変わらせます。
+  - icon: database
+    title: Data
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: film
+    title: Video
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
