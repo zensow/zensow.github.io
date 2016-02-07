@@ -80,7 +80,7 @@ desc "Begin a push sources to Github"
 task :push_src do
   puts "! Push to master branch of GitHub"
   begin
-    sh "git push origin source"
+    sh "git push origin master"
   rescue Exception => e
     puts "! Error - git command abort"
     exit -1
@@ -110,11 +110,12 @@ task :post do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts 'description: ""'
+    post.puts "date: #{date} 00:00:00"
+    post.puts "images: "
     post.puts "category: "
     post.puts "tags: []"
+    post.puts "excerpt: "
     post.puts "---"
-    post.puts "{% include JB/setup %}"
   end
 end # task :post
 
