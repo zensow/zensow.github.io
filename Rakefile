@@ -68,7 +68,7 @@ task :deploy do
   puts "! Change directory master"
   cd "../zensow.github.io" do
     puts "! Push to master branch of GitHub"
-    sh "git add --all *"
+    sh "git add -A"
     message = "deploy at #{Time.now}"
     begin
       sh "git commit -m \"#{message}\""
